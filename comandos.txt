@@ -28,3 +28,12 @@
   touch comandos.txt
   nano comandos.txt
   history
+  touch comandos.txt
+  history
+  nano comandos.txt
+  git add .
+  git commit -m "File comandos agregados"
+  git remote add origin git@github.com:GukCM/libro.git
+  git push origin master
+  git status
+  history
