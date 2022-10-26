@@ -1,0 +1,30 @@
+  mkdir libro
+  cd libro/
+  touch capitulos.txt
+  git status
+  git init
+  git status
+  nano capitulos.txt
+  git status
+  git add capitulos.txt
+  git status
+  git commit -m "Añadido indice libro"
+  nano capitulos.txt
+  git diff
+  git status
+  git add capitulos.txt
+  git commit -m "Añadido capitulo 3 sobre gestion de ramas"
+  git log
+  mkdir capitulos
+  cd cap
+  cd capitulos
+  touch capitulo1.txt
+  nano capitulo1.txt
+  git add .
+  git status
+  git commit -m "Añadido Capitulo 1"
+  git log
+  cd ..
+  touch comandos.txt
+  nano comandos.txt
+  history
